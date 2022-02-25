@@ -1,0 +1,175 @@
+.hero{
+    &_containers{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 115px;
+        font-family: $font-primary-regular;
+        font-weight: 400;
+        line-height: 30px;
+        size: 20px;
+        &>div{
+            width: 25%;
+            &:not(:last-child){
+                margin-right: 30px;
+            }
+            img{
+                height: 35px;
+            }
+            &.active{
+                h4{
+                    &::after{
+                        width: 75%;
+                        background-color: $color-button;
+                    }
+                }
+            }
+        }
+        h4 {
+            position: relative;
+            a {
+                text-decoration: none;
+                color: #000000;
+            }
+            &::before, &::after{
+                content: '';
+                width: 100%;
+                height: 2px;
+                background-color: $color-underline;
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+            }
+        }
+        p{
+            margin-top: 37px;
+            font-family: $font-secondary-regular;
+            font-weight: 400;
+            line-height: 26px;
+            color: $color-hero-p;
+            max-width: 226px;
+        }
+        .active a{
+            color: $color-button;
+            // border-bottom:2px solid $color-button;
+        }
+    }
+    .fetures{
+        display: flex;
+        &_left{
+            margin-top: 55px;
+            img:last-child{
+                margin-left: 30px;
+            }
+        }
+        &_right{
+            margin-left: 96px;
+            margin-top: 86px;
+            max-width: 401px;
+            max-height: 115px;
+            h2{
+                font-family: $font-primary-regular;
+                font-weight: 400;
+                font-size: 48px;
+                letter-spacing: -1.5px;
+                line-height: 52px;
+                color: #000000;
+                max-width: 350px;
+            }
+            p {
+                font-family: $font-secondary-regular;
+                font-weight: 400;
+                line-height: 26px;
+                font-size: 16px;
+                color: $color-hero-p;
+                max-width: 388px;
+                max-height: 105px;
+                margin-top: 73px;
+            }
+            button{
+                border-radius: 3px;
+                background: $color-button;
+                color: $color-primary;
+                margin-top: 33px;
+                max-width: 160px;
+                max-height: 54px;
+                padding: 16px 27px;
+                a {
+                    text-decoration: none;
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}
+.hero_contact {
+    .content_text{
+        h4 {
+            font-family: $font-secondary-regular;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color:#000000;
+            margin-top: 116px;
+        }
+        h1 {
+            font-family: $font-primary-regular;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 52px;
+            letter-spacing: -0.015em;
+            color: #000000;
+            margin-top: 44px;
+            max-width: 528px;
+            max-height: 120px;
+        }
+        p {
+            font-family: $font-secondary-regular;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            color: $color-hero-p;
+            margin-top: 20px;
+            max-width: 760px;
+            max-height: 53px;
+        }
+        img {
+            width: 1110px;
+            height: 520px;
+            margin-top: 98px;
+
+        }
+    }
+    .hero_contact_us {
+        display: flex;
+        // justify-content: space-between;
+        
+        margin-top: 118px;
+        &_left {
+            h1 {
+                font-family: $font-primary-regular;
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 52px;
+                letter-spacing: -0.015em;
+                color: #000000;
+                // max-width: 496px;
+                // max-height: 193px;
+                // margin-right: 169px;
+            }
+        }
+        &_right {
+            p {
+                font-family: $font-secondary-regular;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 26px;
+                color: $color-hero-p;
+                margin-left: 70px;
+                margin-bottom: 20px;
+            }
+            .list {
+                column-count: 2;
+            }
+        }
+    }
+}

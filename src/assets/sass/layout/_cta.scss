@@ -1,0 +1,40 @@
+.cta{
+    background: url("../../img/images/william-daigneault-1172158-unsplash.png") no-repeat;
+    background-size: cover;
+    margin-top: 125px;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+    }
+    &_container{
+        position: relative;
+        h2{
+            font-family: $font-primary-regular;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 52px;
+            letter-spacing: -1.5px;
+            color: $color-primary;
+            max-width: 552px;
+            max-height: 173px;
+        }
+        p {
+            font-family: $font-secondary-regular;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: $color-secondary;
+            max-width: 519px;
+            max-height: 82px;
+            margin-top: 10px;
+        }
+    }
+}

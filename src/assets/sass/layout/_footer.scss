@@ -1,0 +1,144 @@
+footer{
+    .contact{
+        display: flex;
+        margin-top: 131px ;
+        justify-content: space-between;
+        &_left{
+            border-right: 1px solid $color-secondary;
+            h2 {
+                margin-right: 330px;
+                font-family: $font-primary-regular;
+                font-size: 48px;
+                font-weight: 400;
+                line-height: 36px;
+                letter-spacing: -1.5px;
+                color: #000000;
+                max-width: 465px;
+                max-height: 77px;
+            }
+            button {
+                margin-top: 30px;
+                background-color: white;
+                font-family: $font-secondary-regular;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 28px;
+                text-align: center;
+                max-height: 28px;
+                width: 120px;
+                a {
+                    color: $color-button;
+                    text-decoration: none;
+                }
+            }
+        }
+        &_right{
+            display: flex;
+            justify-content: space-between;
+            .office{
+                h5 {
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 26px;
+                    color: $color-hero-p;
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    max-width: 170px;
+                    max-height: 21px;
+                }
+                p {
+                    max-width: 193px;
+                    max-height: 87px;
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #1C1C1C;
+                    margin-top: 21px;
+                }
+            }
+            .email {
+                h5 {
+                    max-height: 21px;
+                    max-width: 200px;
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 26px;
+                    letter-spacing: 5px;
+                    color: $color-hero-p;
+                    text-transform: uppercase;
+                    margin-left: 75px;
+                }
+                p {
+                    max-width: 200px;
+                    max-height: 58px;
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #1C1C1C;
+                    margin-top: 21px;
+                    margin-left: 52px;
+                }
+            }
+        }
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        .logo {
+            max-width: 131px;
+            max-height: 87px;
+            margin-top: 100px;
+            margin-bottom: 72px;
+        }
+        &_layout {
+            margin-top: 140px;
+            a {
+                &:not(:last-child) {
+                    margin-right: 30px;
+                }
+                text-decoration: none;
+                font-family: $font-primary-regular;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                color: #1C1C1C;
+                &.active {
+                    border-bottom: 2px solid #1C1C1C;
+                }
+            }
+        }
+        &_copyright {
+            margin-top: 140px;
+            max-width: 160px;
+            max-height: 28px;
+            font-family: $font-secondary-regular;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: $color-secondary;
+        }
+    }
+    .social_media {
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        margin-top: 75px;
+        .revers_arow {
+            margin-top: 4px;
+        }
+        p {
+            font-family: $font-secondary-regular;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            text-align: center;
+            color: $color-button;
+            margin-top: -6px;
+        }
+    }
+}

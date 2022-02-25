@@ -1,0 +1,49 @@
+// Colors
+$color-primary: #222222;
+$color-secondary: #02170D;
+$color-button: #FFFFFF;
+$color-of-p: #666666;
+$color-of-links: #02A556;
+
+//Shadows
+// $shadow-sm: ;
+
+//Font sizes
+// $font-size-xs: ;
+// $font-size-sm: ;
+// $font-size-re: ;
+// $font-size-md: ;
+// $font-size-lg: ;
+// $font-size-xl: ;
+
+// Font Names
+$font-primary: "Raleway";
+$font-weight-primary: "Regular";
+
+$font-secondary: "Montserrat";
+$font-weight-secondary: "Regular";
+
+
+//==================================//
+// Don't miss with those variabeles //
+//==================================//
+
+// Breakpoint
+$breakpoints: ("xs": 360px, "sm": 576px, "md":768px, "lg":992px, "xl":1200px);
+
+// Black & White
+$color-black: #000000;
+$color-white: #ffffff;
+
+//Font Family
+// $font-primary-light: $font-primary + " Light";
+$font-primary-regular: $font-primary + " Regular";
+// $font-primary-medium: $font-primary + " Medium";
+// $font-primary-semibold: $font-primary + " SemiBold";
+$font-primary-bold: $font-primary + " Bold";
+
+// $font-secondary-light: $font-secondary + " Light";
+$font-secondary-regular: $font-secondary + " Regular";
+// $font-secondary-medium: $font-secondary + " Medium";
+// $font-secondary-semibold: $font-secondary + " SemiBold";
+$font-secondary-bold: $font-secondary + " Bold";

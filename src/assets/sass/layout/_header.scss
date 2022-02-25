@@ -1,0 +1,151 @@
+
+.background_home{
+    background: url("../../img/backgrounds/backround.png") no-repeat;
+    background-size: cover;
+}
+.background_about{
+    background: url("../../img/backgrounds/about.png") no-repeat;
+    background-size: cover;
+}
+
+.background_contact {
+    background: url("../../img/backgrounds/contact.png") no-repeat;
+    background-size: cover;
+}
+
+header{
+    padding-bottom: 50px;
+    .title{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        h1 {
+            font-family: $font-primary-regular;
+            font-weight: 400;
+            font-size: 55px;
+            line-height: 64px;
+            color: $color-primary;
+            margin-top: 136px;
+            max-width: 603px;
+            max-height: 141px;
+        }
+        p {
+            font-family: $font-secondary-regular;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: $color-secondary;
+            max-width: 379px;
+            margin-top: 10px;
+            max-height: 82px;
+        }
+        button{
+            border-radius: 3px;
+            background: $color-button;
+            margin-top: 66px;
+            max-width: 160px;
+            max-height: 54px;
+            padding: 16px 27px;
+            margin-bottom: 156px;
+            a {
+                text-decoration: none;
+                color: $color-primary;
+            }
+        }
+    }
+    .title_contact {
+        h1 {
+            font-family: $font-primary-regular;
+            font-size: 55px;
+            font-weight: 400;
+            line-height: 64px;
+            letter-spacing: -0.005rem;
+            max-width: 855px;
+            max-height: 197px;
+            color: $color-primary;
+            margin-top: 200px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .Hero_contact {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 150px;
+        height: 35vh;
+        &_left{
+            width: 100%;
+            h1 {
+                font-family: $font-primary-regular;
+                font-weight: 400;
+                font-size: 55px;
+                line-height: 64px;
+                color: $color-primary;
+                letter-spacing: -0.005em;
+            }
+            p {
+                font-family: $font-secondary-regular;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: $color-secondary;
+                margin-top: 30px;
+                width: 450px;
+            }
+        }
+
+        &_right{
+            display: flex;
+            justify-content: space-between;
+            .office{
+                h5 {
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 26px;
+                    color: $color-primary;
+                    letter-spacing: 5px;
+                    text-transform: uppercase;
+                    width: 170px;
+                    height: 21px;
+                }
+                p {
+                    width: 193px;
+                    height: 87px;
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: $color-primary;
+                    margin-top: 21px;
+                }
+            }
+            .email {
+                h5 {
+                    height: 21px;
+                    width: 200px;
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 26px;
+                    letter-spacing: 5px;
+                    color: $color-primary;
+                    text-transform: uppercase;
+                    margin-left: 75px;
+                }
+                p {
+                    width: 200px;
+                    height: 58px;
+                    font-family: $font-secondary-regular;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: $color-primary;
+                    margin-top: 21px;
+                    margin-left: 52px;
+                }
+            }
+        }
+    }
+}

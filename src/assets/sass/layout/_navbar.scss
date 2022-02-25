@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    @include mq('xs')
+    {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &_left{
+        margin-top: 53px;
+        a{
+            color: $color-primary;
+            text-decoration: none;
+            &:not(last-child){
+                margin-right: 40px;
+            }
+            &.active
+            {
+                border-bottom:2px solid $color-primary;
+            }
+        }
+        
+    }
+    &_midle{
+        position: relative;
+        top: 40px;
+    }
+    &_right{
+        margin-top: 53px;
+        a:not(last-child){
+            margin-left: 35px;
+        }
+    }
+}

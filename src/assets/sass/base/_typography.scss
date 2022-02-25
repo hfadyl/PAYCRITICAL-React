@@ -1,0 +1,61 @@
+/*=== Import Fonts ===*/
+@if ($font-primary != "" and nth($font-weight-primary,1) != ""){
+    @each $i in $font-weight-primary{
+        @font-face{
+            font-family: "#{$font-primary nth($i,1)}";
+            src: url("../../fonts/#{$font-primary}/#{$font-primary}-#{nth($i,1)}.ttf") format("truetype");
+        }
+    }
+}
+@if ($font-secondary != "" and nth($font-weight-secondary,1) != ""){
+    @each $i in $font-weight-secondary{
+        @font-face{
+            font-family: "#{$font-secondary nth($i,1)}";
+            src: url("../../fonts/#{$font-secondary}/#{$font-secondary}-#{nth($i,1)}.ttf") format("truetype");
+        }
+    }
+}
+
+/*=== Typography Styling ===*/
+body {
+	// color: $dark-1;
+	// font-size: $size-small;
+	// font-family: $font-primary-regular, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+	// line-height: 1.5;
+}
+
+// How typogrraphy should looks like on mobile version
+// @include for-size(phone-only) {
+// 	h1 {
+// 		// font-size: ;
+// 		// line-height: ;
+// 	}
+// 	h2 {
+// 		// font-size: ;
+// 		// line-height: ;
+// 	}
+// 	h3 {
+// 		// font-size: ;
+// 		// line-height: ;
+// 	}
+// 	h4 {
+// 		// font-size: ;
+// 		// line-height: ;
+// 	}
+// 	h5 {
+// 		// font-size: ;
+// 		// line-height: ;
+// 	}
+// 	h6 {
+// 		// font-size: ;
+// 		// line-height: ;
+// 	}
+// 	p {
+// 		// font-size: ;
+// 		// line-height: ;
+// 	}
+// }

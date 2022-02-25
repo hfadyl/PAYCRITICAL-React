@@ -1,0 +1,52 @@
+.map {
+    .mapp > img{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-51%, -42%);
+        width: 1210px;
+        height: 600px;
+    }
+    .location {
+        width: 170px;
+        height: 130px;
+        background-color: black;
+        color: $color-primary;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-41%, -514%);
+        padding: 10px;
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            &:nth-child(1) {
+                color: $color-secondary;
+                font-family: $font-secondary-regular;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 22px;
+            }
+            &:nth-child(2) {
+                color: $color-primary;
+                font-family: $font-primary-regular;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 19px;
+                letter-spacing: -0.5px;
+            }
+        }
+        .ellipse {
+            height: 15px;
+            width: 15px;
+            background-color: #C09737;
+            border-radius: 50%;
+            position:relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-700%, -500%);
+        }
+    }
+}
