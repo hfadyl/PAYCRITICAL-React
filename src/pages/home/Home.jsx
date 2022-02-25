@@ -5,6 +5,7 @@ import Feature2 from "./sections/Feature2";
 import Feature3 from "./sections/Feature3";
 import Paycritical from "./sections/Paycritical";
 import Cases from "./sections/Cases";
+import Partners from "./sections/Partners";
 
 function Home()
 {
@@ -17,6 +18,7 @@ function Home()
         <Feature3 />
         <Paycritical />
         <Cases />
+        <Partners />
         </>
     );
 }

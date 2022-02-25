@@ -30,32 +30,104 @@ body {
 
 // How typogrraphy should looks like on mobile version
 // @include for-size(phone-only) {
-// 	h1 {
-// 		// font-size: ;
-// 		// line-height: ;
-// 	}
-// 	h2 {
-// 		// font-size: ;
-// 		// line-height: ;
-// 	}
-// 	h3 {
-// 		// font-size: ;
-// 		// line-height: ;
-// 	}
-// 	h4 {
-// 		// font-size: ;
-// 		// line-height: ;
-// 	}
-// 	h5 {
-// 		// font-size: ;
-// 		// line-height: ;
-// 	}
-// 	h6 {
-// 		// font-size: ;
-// 		// line-height: ;
-// 	}
-// 	p {
-// 		// font-size: ;
-// 		// line-height: ;
-// 	}
-// }
+    a, select > option {
+        font-family: $font-secondary-regular;
+        font-size: 16px;
+        font-weight: normal;
+        color: $color-primary;
+        text-decoration: none;
+        line-height: 20px;
+        text-transform: capitalize;
+    }
+    
+    h1 {
+        font-family: $font-primary-bold;
+        font-size: 48px;
+        font-weight: bold;
+        color: $color-primary;
+        line-height: 56px;
+    }
+    
+    h2 {
+        font-family: $font-primary-bold;
+        font-size: 30px;
+        font-weight: bold;
+        color: $color-primary;
+        line-height: 35px;
+        font-style: normal;
+    }
+    h3 {
+        font-family: $font-primary-bold;
+        font-size: 24px;
+        font-weight: bold;
+        color: $color-secondary;
+        line-height: 28px;
+        font-style: normal;
+    }
+    
+    h4 {
+        font-family: $font-secondary-bold;
+        font-size: 18px;
+        font-weight: bold;
+        color: $color-primary;
+        line-height: 163.2%;
+        text-align: center;
+        font-style: normal;
+    }
+    h5 {
+        font-family: $font-primary-regular;
+        font-size: 24px;
+        font-weight: 600;
+        color: $color-primary;
+        line-height: 28px;
+    }
+    
+    p {
+        font-family: $font-secondary-regular;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 163.2%;
+        color: $color-of-p;
+    }
+    
+    ul {
+        font-family: $font-secondary-regular;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 169.7%;
+        color: $color-of-p;
+    }
+    
+    button {
+        font-family: $font-secondary-regular;
+        font-size: 16px;
+        font-weight: bold;
+        color: $color-button;
+        text-decoration: none;
+        line-height: 24px;
+        text-transform: capitalize;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: $color-of-links;
+        padding: 8px 50px;
+        border-radius: 5px;
+        border: 1px solid $color-button;
+        transition: all .3s;
+        cursor: pointer;
+        &:hover {
+            background-color: transparent;
+            color: $color-button;
+        }
+    }
+    
+    span {
+        font-family: $font-secondary-bold;
+        font-style: normal;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 26px;
+        color: $color-of-p;
+    }
