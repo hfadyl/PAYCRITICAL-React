@@ -37,6 +37,17 @@ const Content = styled.div`
     p {
         margin-bottom: 50px;
     }
+    button {
+         background-color: #02A556;
+         padding: 8px 50px;
+         border-radius: 5px;
+         border: 1px solid $color-button;
+         transition: all .3s;
+         &:hover {
+            background-color: transparent;
+            color: #02A556;
+        }
+    }
 `;
 
 const Image = styled.img``;

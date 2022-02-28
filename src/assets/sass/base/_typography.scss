@@ -111,16 +111,16 @@ body {
         display: flex;
         align-items: center;
         text-align: center;
-        background-color: $color-of-links;
-        padding: 8px 50px;
-        border-radius: 5px;
-        border: 1px solid $color-button;
-        transition: all .3s;
+        // background-color: $color-of-links;
+        // padding: 8px 50px;
+        // border-radius: 5px;
+        // border: 1px solid $color-button;
+        // transition: all .3s;
         cursor: pointer;
-        &:hover {
-            background-color: transparent;
-            color: $color-button;
-        }
+        // &:hover {
+        //     background-color: transparent;
+        //     color: $color-button;
+        // }
     }
     
     span {
@@ -130,4 +130,15 @@ body {
         font-weight: bold;
         line-height: 26px;
         color: $color-of-p;
+    }
+
+    time {
+        font-family: $font-secondary-regular;
+        font-style: normal;
+        font-size: 31px;
+        font-weight: normal;
+        line-height: 38px;
+        color: #02170D;
+        text-align: center;
+        letter-spacing: -0.02em;
     }
