@@ -7,6 +7,7 @@ import Paycritical from "./sections/Paycritical";
 import Cases from "./sections/Cases";
 import Partners from "./sections/Partners";
 import Blog from "./sections/Blog";
+import Footer from "../../layout/Footer";
 
 function Home()
 {
@@ -21,6 +22,7 @@ function Home()
         <Cases />
         <Partners />
         <Blog />
+        <Footer />
         </>
     );
 }

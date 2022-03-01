@@ -32,6 +32,7 @@ const Nav = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 9;
 `;
 
 const NavLeft = styled.div`
@@ -53,7 +54,7 @@ const Select = styled.select`
   background-color: #f7f8f7;
   outline: none;
   border: none;
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
 `;
 
 const StyledLink = styled(Link)`
@@ -64,7 +65,6 @@ const StyledLink = styled(Link)`
   padding: 5px;
   padding-left: 25px;
   padding-right: 25px;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

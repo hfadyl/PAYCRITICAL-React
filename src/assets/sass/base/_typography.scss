@@ -81,6 +81,13 @@ body {
         color: $color-primary;
         line-height: 28px;
     }
+    h6 {
+        font-family: $font-secondary-bold;
+        font-size: 14px;
+        font-weight: bold;
+        color: $color-button;
+        line-height: 150.6%;
+    }
     
     p {
         font-family: $font-secondary-regular;
